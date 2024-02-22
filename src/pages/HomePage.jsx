@@ -201,13 +201,13 @@ const HomePage = () => {
   <div className='flex md:flex-row flex-col  md:p-8'>
     <div className="flex-1 md:p-8 p-3">
       <h1 className='md:text-4xl text-3xl font-medium text-center'>Find the right <span style={{ color: "#7677FF" }}> solution</span> for you</h1>
-      <div className='md:h-[600px] h-[400px] '>
+      <div className='md:h-[600px] md:mt-0 mt-32 md:p-0  h-[400px] '>
         <img className='relative bottom-[40px]' src={HeroImage2} alt="" />
         <img className='relative  bottom-[270px] left-[150px] ' src={HeroImage3} alt="" />
         <img className='relative  bottom-[600px] md:right-[200px] right-[150px] ' src={HeroImage1} alt="" />
       </div>
     </div>
-    <div className="flex-1 p-8">
+    <div className="flex-1 px-8 md:mb-0">
       <p className='text-gray-500 mb-6'>The BluePallet platform makes it easier for members to buy and sell wholesale chemicals and ingredients.</p>
       {AccordianData.map((item,index)=>(
         <Accordion key={index} title={item.title} content={item.content}/>
