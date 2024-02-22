@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.component{
+    background: linear-gradient(#9192FF,#80DCFF);
+}
+
+
+.login-image {
+    background: linear-gradient(rgba(0,0,0,0.25),rgba(0,0,0,0.25)),url("./images/Rectangle.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.otpInput {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    text-align: center;
+    font-size: 1.2em;
+    border: 1px solid rgb(189, 177, 177);
+  }
+
+  .footer{
+    background: linear-gradient(180deg, #202856 0%, #03131E 98%);
+  }
+
+
+
+.customer-stories{
+    background: linear-gradient(180deg, #202856 0%, #03131E 100%);
+}
+
+
