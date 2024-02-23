@@ -33,7 +33,47 @@ const MyDocuments = () => {
       status: 'Approved',
       documentLink: 'https://example.com/document1',
     },
-    // Add more data objects as needed
+
+    {
+      certificateName: 'Driving License',
+      certificateNo: '123456789',
+      date: '2024-02-23',
+      status: 'Approved',
+      documentLink: 'https://example.com/document1',
+    },
+
+    {
+      certificateName: 'Driving License',
+      certificateNo: '123456789',
+      date: '2024-02-23',
+      status: 'Approved',
+      documentLink: 'https://example.com/document1',
+    },
+
+    {
+      certificateName: 'Driving License',
+      certificateNo: '123456789',
+      date: '2024-02-23',
+      status: 'Approved',
+      documentLink: 'https://example.com/document1',
+    },
+
+    {
+      certificateName: 'Driving License',
+      certificateNo: '123456789',
+      date: '2024-02-23',
+      status: 'Approved',
+      documentLink: 'https://example.com/document1',
+    },
+
+    {
+      certificateName: 'Driving License',
+      certificateNo: '123456789',
+      date: '2024-02-23',
+      status: 'Approved',
+      documentLink: 'https://example.com/document1',
+    },
+   
   ];
 
   const [activeLink, setActiveLink] = useState('all');

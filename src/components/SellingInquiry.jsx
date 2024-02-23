@@ -18,11 +18,28 @@ const SellingInquiry = () => {
       description : "CAS: 181289-15-6  Naptune Pharma  Inquiry Quantity: 15kg"
     },
 
+   
     {
       image : Image ,
       title : "CMH- ACID",
       description : "CAS: 181289-15-6  Naptune Pharma  Inquiry Quantity: 15kg"
     },
+    {
+      image : Image ,
+      title : "CMH- ACID",
+      description : "CAS: 181289-15-6  Naptune Pharma  Inquiry Quantity: 15kg"
+    },
+    {
+      image : Image ,
+      title : "CMH- ACID",
+      description : "CAS: 181289-15-6  Naptune Pharma  Inquiry Quantity: 15kg"
+    },
+    {
+      image : Image ,
+      title : "CMH- ACID",
+      description : "CAS: 181289-15-6  Naptune Pharma  Inquiry Quantity: 15kg"
+    },
+    
 
    
 
