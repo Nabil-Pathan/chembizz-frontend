@@ -40,14 +40,14 @@ const About = () => {
          <div className='flex md:flex-row flex-col items-center'>
 
            <div className="flex-1">
-             <img className='md:w-[400px] rounded-2xl' src={GalleryImage} alt="" />
+             <img className='w-[400px]  rounded-2xl' src={GalleryImage} alt="" />
            </div>
 
-           <div className="flex-1 p-10">
+           <div className="flex-1 md:p-10 p-4">
              <h1 className='text-darkBlue font-medium  md:text-5xl text-3xl'>About <span>ChemBizz</span></h1>
              <h2 className='text-xl text-gray-600 mt-8'>AnBizz.com is a Digital Platform of the chemical industry</h2>
 
-             <div className='flex gap-6'>
+             <div className='flex md:flex-row flex-col gap-6'>
             <button className='bg-darkBlue mt-8 text-white px-4 py-3 rounded-md font-medium'>Request Demo</button>
             <button className='border-darkBlue border mt-8 px-4 py-3 rounded-md font-medium'> Register Now</button>
             </div>
@@ -125,8 +125,8 @@ const About = () => {
 
             </div>
 
-            <div className="flex-1 p-6">
-               <img className='md:w-[400px]' src={GalleryImage} alt="" />
+            <div className="flex-1 md:p-6">
+               <img className='w-[400px]' src={GalleryImage} alt="" />
             </div>
 
           </div>

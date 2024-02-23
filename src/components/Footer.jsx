@@ -1,12 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { Link, useLocation } from 'react-router-dom';
 import Logo from "../images/logo.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin , faTwitter , faInstagram} from "@fortawesome/free-brands-svg-icons"
 
 const Footer = () => {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
   return (
-    <footer  className='p-10 mt-4 footer text-gray-300'>
+    <footer className='p-10 mt-4 footer text-gray-300'>
 
       <div className='flex md:flex-row flex-col p-8 items-center justify-between'>
         <div>

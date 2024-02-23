@@ -12,6 +12,14 @@ import PhoneInput from 'react-phone-input-2';
 import Accordion from '../components/Accordian';
 import CustomerStoriesImage from "../images/customer-stories.png"
 
+import Hero1 from "../images/hero1.png"
+import Hero2 from "../images/hero2.png"
+import Hero4 from "../images/hero4.png"
+import Hero3 from "../images/hero3.png"
+
+
+
+
 const AccordianData = [
   {
     title : "Purchasing",
@@ -48,13 +56,13 @@ const HomePage = () => {
           <img src={HeroImage1} alt='Hero Image 1' className='w-[600px] h-[400px] md:relative md:right-[150px] md:bottom-[70px] ' />
 
 
-          <img src={HeroImage2} alt='Hero Image 2' className='w-[600px] h-[400px] md:relative md:left-[60px] md:bottom-[30px] ' />
+         <img src={HeroImage2} alt='Hero Image 2' className='w-[600px] h-[400px] md:relative md:left-[30px] md:bottom-[30px] ' />
 
         </div>
         <div className='flex md:p-0 py-20  flex-col items-center md:relative md:bottom-[80px] justify-center'>
           <h1 className='text-center text-darkBlue md:text-6xl text-4xl font-medium mb-6'>Procuring <span style={{ color: "#7677FF" }}>chemicals</span> just got easier</h1>
           <p className='text-center text-gray-600'>Gain access to the world's largest chemical marketplace, view live inventory and start transacting today.</p>
-          <div className='flex mt-8 gap-6'>
+          <div className='flex md:flex-row flex-col mt-8 gap-6'>
             <button className='bg-darkBlue text-white font-medium px-4 py-3 rounded-lg'>Start free trial</button>
             <button className='flex gap-3 items-center'><CalendarIcon className='w-6 h-6' /> Schedule demo</button>
           </div>
@@ -201,11 +209,15 @@ const HomePage = () => {
   <div className='flex md:flex-row flex-col  md:p-8'>
     <div className="flex-1 md:p-8 p-3">
       <h1 className='md:text-4xl text-3xl font-medium text-center'>Find the right <span style={{ color: "#7677FF" }}> solution</span> for you</h1>
-      <div className='md:h-[600px] md:mt-0 mt-32 md:p-0  h-[400px] '>
-        <img className='relative bottom-[40px]' src={HeroImage2} alt="" />
-        <img className='relative  bottom-[270px] left-[150px] ' src={HeroImage3} alt="" />
-        <img className='relative  bottom-[600px] md:right-[200px] right-[150px] ' src={HeroImage1} alt="" />
+      <div className='md:h-[800px] p-10 md:mt-0 mt-32 md:p-0 md:block flex flex-col items-center justify-center   '>
+        <img className='md:relative md:top-[60px]  ' src={Hero1} alt="" />
+        <img className='md:relative   md:left-[150px] ' src={Hero3} alt="" />
+        <img className='md:relative md:bottom-[150px]   ' src={Hero1} alt="" />
       </div>
+
+
+     
+
     </div>
     <div className="flex-1 px-8 md:mb-0">
       <p className='text-gray-500 mb-6'>The BluePallet platform makes it easier for members to buy and sell wholesale chemicals and ingredients.</p>
@@ -217,17 +229,17 @@ const HomePage = () => {
 </div>
 
 
-      <div className='w-full p-10 rounded-lg customer-stories mt-6'>
+      <div className='w-full md:p-10 rounded-lg customer-stories mt-6'>
          <div className='flex flex-col items-center justify-center p-8'>
            <h1 className='text-white md:text-5xl text-3xl font-medium text-center'>Customer success <br /> <span style={{ color: "#9192FF" }}> stories </span></h1>
            <p className='mt-4 font-thin text-gray-200 text-center'>How chemical sourcing experts are using new technologies.</p>
 
 
            <div className='md:w-[80%] md:h-[400px] flex md:flex-row flex-col items-center justify-center gap-6 mt-10'>
-            <img className='md:w-[20%] w-[100%]  md:h-[100%] h-[300px] md:object-cover rounded-3xl cursor-pointer transition-all ease-in hover:w-[100%]' src={CustomerStoriesImage} alt="" />
-            <img className='md:w-[20%] w-[100%]  md:h-[100%] h-[300px] md:object-cover rounded-3xl cursor-pointer transition-all ease-in hover:w-[100%]'  src={CustomerStoriesImage} alt="" />
-            <img className='md:w-[20%] w-[100%]  md:h-[100%] h-[300px] md:object-cover rounded-3xl cursor-pointer transition-all ease-in hover:w-[100%]'  src={CustomerStoriesImage} alt="" />
-            <img className='md:w-[20%]  w-[100%] md:h-[100%] h-[300px] md:object-cover rounded-3xl cursor-pointer transition-all ease-in hover:w-[100%]'  src={CustomerStoriesImage} alt="" />
+            <img className='md:w-[20%] w-[100%]  md:h-[100%] h-[300px] md:object-cover object-contain rounded-3xl cursor-pointer transition-all ease-in hover:w-[100%]' src={CustomerStoriesImage} alt="" />
+            <img className='md:w-[20%] w-[100%]  md:h-[100%] h-[300px] md:object-cover object-contain rounded-3xl cursor-pointer transition-all ease-in hover:w-[100%]'  src={CustomerStoriesImage} alt="" />
+            <img className='md:w-[20%] w-[100%]  md:h-[100%] h-[300px] md:object-cover object-contain rounded-3xl cursor-pointer transition-all ease-in hover:w-[100%]'  src={CustomerStoriesImage} alt="" />
+            <img className='md:w-[20%]  w-[100%] md:h-[100%] h-[300px] md:object-cover object-contain rounded-3xl cursor-pointer transition-all ease-in hover:w-[100%]'  src={CustomerStoriesImage} alt="" />
            </div>
 
         </div>        
