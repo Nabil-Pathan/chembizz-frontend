@@ -90,9 +90,9 @@ const About = () => {
 
        <div className='w-full mt-10 p-10'>
 
-          <div className="flex md:flex-row flex-col p-8">
+          <div className="flex md:flex-row flex-col md:p-8">
 
-            <div className="flex-1 p-6">
+            <div className="flex-1 md:p-6">
                <h1 className='text-3xl text-darkBlue font-semibold '>Who we Are ? </h1>
                <p className='text-sm text-darkBlue mt-6'>We are a team of enthusiastic professionals, who like everything about chemicals. As individual from chemical industries we identify problems which arise in our day to day life which need:</p>
 
@@ -135,8 +135,8 @@ const About = () => {
 
        {/* Research Section */}
 
-       <div className='w-full mt-10 p-10'>
-          <div className="bg-white flex flex-col items-center justify-center  p-8">
+       <div className='w-full mt-10 md:p-10 p-4'>
+          <div className="bg-white flex flex-col items-center justify-center  px-8 py-4">
             <h1 className='text-center text-3xl font-semibold'>Start Your Research Today</h1> 
 
             <h2 className='text-gray-600 mt-4 text-center text-xl'>Start searching for chemicals and connect with valuable people like you in minutes.</h2>

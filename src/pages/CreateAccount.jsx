@@ -26,7 +26,7 @@ const CreateAccount = () => {
             <input
               type="tel"
               placeholder='Enter mobile number'
-              className='mt-8 py-3 px-2 border border-gray-200'
+              className='mt-8 py-3 px-2 outline-none border border-gray-200'
             />
 
             <input type="email" placeholder='Email ' className='mt-8 py-3 outline-none px-2 border border-gray-200 rounded-md' />
@@ -35,7 +35,7 @@ const CreateAccount = () => {
             <div className='flex w-full gap-4'>
 
             <div className='mt-8 flex-1'>
-              <select id="country" className='block bg-white w-full p-2 mt-2  border border-gray-200 rounded-md'>
+              <select id="country" className='block outline-none bg-white w-full p-2 mt-2  border border-gray-200 rounded-md'>
                 <option value="in">India</option>
                 <option value="us">United States</option>
                 <option value="gb">United Kingdom</option>
@@ -45,7 +45,7 @@ const CreateAccount = () => {
             </div>
 
             <div className='mt-8 flex-1'>
-              <select id="country" className='block bg-white w-full p-2 mt-2  border border-gray-200 rounded-md'>
+              <select id="country" className='block outline-none bg-white w-full p-2 mt-2  border border-gray-200 rounded-md'>
                 <option value="in">Gujarat</option>
                 <option value="us">Maharashtra</option>
                 <option value="gb">Delhi</option>
