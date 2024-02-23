@@ -206,13 +206,13 @@ const HomePage = () => {
       {/* Solution Section */}
 
       <div className='md:p-10 w-full mt-8'>
-  <div className='flex md:flex-row flex-col  md:p-8'>
-    <div className="flex-1 md:p-8 p-3">
+  <div className='flex  md:flex-row flex-col  md:p-8'>
+    <div className="flex-1 md:px-8 p-3">
       <h1 className='md:text-4xl text-3xl font-medium text-center'>Find the right <span style={{ color: "#7677FF" }}> solution</span> for you</h1>
-      <div className='md:h-[800px] p-10 md:mt-0 mt-32 md:p-0 md:block flex flex-col items-center justify-center   '>
+      <div className='md:h-[700px] md:p-10 md:mt-0 mt-32 md:px-20 md:block flex gap-6 flex-col items-center justify-center   '>
         <img className='md:relative md:top-[60px]  ' src={Hero1} alt="" />
         <img className='md:relative   md:left-[150px] ' src={Hero3} alt="" />
-        <img className='md:relative md:bottom-[150px]   ' src={Hero1} alt="" />
+        <img className='md:relative md:bottom-[130px]  md:right-[40px]  ' src={Hero1} alt="" />
       </div>
 
 

@@ -23,13 +23,11 @@ const CreateAccount = () => {
 
             <input type="text" placeholder='GST No. ' className='mt-8 outline-none py-3 px-2 border border-gray-200 rounded-md' />
 
-            <div className='mt-8 p-0'>
-              <PhoneInput
-                country={'in'}
-                placeholder='Enter mobile number'
-                inputStyle={{ width: "100%", margin: "10px" , height : "50px"}}
-              />
-            </div>
+            <input
+              type="tel"
+              placeholder='Enter mobile number'
+              className='mt-8 py-3 px-2 border border-gray-200'
+            />
 
             <input type="email" placeholder='Email ' className='mt-8 py-3 outline-none px-2 border border-gray-200 rounded-md' />
 
