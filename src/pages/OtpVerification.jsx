@@ -8,7 +8,7 @@ const OtpVerification = () => {
   return (
     <div className='md:px-40 md:py-10 bg-gray-100'>
 
-      <div className='p-10 flex md:flex-row flex-col bg-white rounded-2xl'>
+      <div className='md:p-10 p-3 flex md:flex-row flex-col bg-white rounded-2xl'>
 
         {/* Image */}
 
@@ -24,7 +24,7 @@ const OtpVerification = () => {
 
         {/* Form */}
 
-        <div className='p-10 md:w-[70%] flex flex-col items-center justify-center md:h-[700px] rounded-2xl'>
+        <div className='md:p-10 md:w-[70%] flex flex-col items-center justify-center md:h-[700px] rounded-2xl'>
           <form className='flex flex-col items-center justify-center mt-8 '>
             <h1 className='text-darkBlue text-center text-4xl font-semibold'>Enter OTP</h1>
 
