@@ -89,25 +89,25 @@ const MyDocuments = () => {
 
         <div className="flex gap-3 mt-4">
           <span
-            className={`cursor-pointer ${activeLink === 'all' && 'border-b-2 border-black'}`}
+            className={`cursor-pointer md:text-xl text-sm ${activeLink === 'all' && 'border-b-2 border-black'}`}
             onClick={() => handleLinkClick('all')}
           >
             All
           </span>
           <span
-            className={`cursor-pointer ${activeLink === 'approved' && 'border-b-2 border-black'}`}
+            className={`cursor-pointer md:text-xl text-sm ${activeLink === 'approved' && 'border-b-2 border-black'}`}
             onClick={() => handleLinkClick('approved')}
           >
             Approved
           </span>
           <span
-            className={`cursor-pointer ${activeLink === 'rejected' && 'border-b-2 border-black'}`}
+            className={`cursor-pointer md:text-xl text-sm ${activeLink === 'rejected' && 'border-b-2 border-black'}`}
             onClick={() => handleLinkClick('rejected')}
           >
             Rejected
           </span>
           <span
-            className={`cursor-pointer ${activeLink === 'pending' && 'border-b-2 border-black'}`}
+            className={`cursor-pointer md:text-xl text-sm ${activeLink === 'pending' && 'border-b-2 border-black'}`}
             onClick={() => handleLinkClick('pending')}
           >
             Pending

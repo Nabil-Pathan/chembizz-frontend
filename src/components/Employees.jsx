@@ -7,7 +7,7 @@ const Employees = () => {
     {
       employeeWorker: 'Saathi Rathod',
       email: '123@gmail.com',
-      mobile: '+91 987-987-9876',
+      mobile: '+91987-987-9876',
       password :  "*******",
       status: 'Approved',
     },
@@ -15,7 +15,7 @@ const Employees = () => {
     {
       employeeWorker: 'Saathi Rathod',
       email: '123@gmail.com',
-      mobile: '+91 987-987-9876',
+      mobile: '+91987-987-9876',
       password :  "*******",
       status: 'Approved',
     },
@@ -23,7 +23,7 @@ const Employees = () => {
     {
       employeeWorker: 'Saathi Rathod',
       email: '123@gmail.com',
-      mobile: '+91 987-987-9876',
+      mobile: '+91987-987-9876',
       password :  "*******",
       status: 'Approved',
     },
@@ -31,7 +31,7 @@ const Employees = () => {
     {
       employeeWorker: 'Saathi Rathod',
       email: '123@gmail.com',
-      mobile: '+91 987-987-9876',
+      mobile: '+91987-987-9876',
       password :  "*******",
       status: 'Approved',
     },
@@ -39,7 +39,7 @@ const Employees = () => {
     {
       employeeWorker: 'Saathi Rathod',
       email: '123@gmail.com',
-      mobile: '+91 987-987-9876',
+      mobile: '+91987-987-9876',
       password :  "*******",
       status: 'Approved',
     },
@@ -47,7 +47,7 @@ const Employees = () => {
     {
       employeeWorker: 'Saathi Rathod',
       email: '123@gmail.com',
-      mobile: '+91 987-987-9876',
+      mobile: '+91987-987-9876',
       password :  "*******",
       status: 'Approved',
     },
@@ -55,7 +55,7 @@ const Employees = () => {
     {
       employeeWorker: 'Saathi Rathod',
       email: '123@gmail.com',
-      mobile: '+91 987-987-9876',
+      mobile: '+91987-987-9876',
       password :  "*******",
       status: 'Approved',
     },
@@ -63,7 +63,7 @@ const Employees = () => {
     {
       employeeWorker: 'Saathi Rathod',
       email: '123@gmail.com',
-      mobile: '+91 987-987-9876',
+      mobile: '+91987-987-9876',
       password :  "*******",
       status: 'Approved',
     },
@@ -71,7 +71,7 @@ const Employees = () => {
     {
       employeeWorker: 'Saathi Rathod',
       email: '123@gmail.com',
-      mobile: '+91 987-987-9876',
+      mobile: '+91987-987-9876',
       password :  "*******",
       status: 'Approved',
     },
@@ -147,7 +147,7 @@ const Employees = () => {
             <h2 className="text-gray-500">Email</h2>
             <p>{item.email}</p>
           </td>
-          <td className=" px-4 py-2 flex flex-col">
+          <td className="px-4 py-2 flex flex-col">
             <h2 className="text-gray-500">Mobile No.</h2>
             <p>{item.mobile}</p>
           </td>
