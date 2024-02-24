@@ -160,7 +160,7 @@ const Employees = () => {
             <h2 className="text-gray-500">Status</h2>
             <p className="text-green-700">{item.status}</p>
           </td>
-          <td className=" px-4 py-2 flex items-center  justify-center gap-2">Edit <FontAwesomeIcon icon={faPencil}/> </td>
+          <td className=" px-4 py-2 flex justify-center  gap-2">Edit <FontAwesomeIcon icon={faPencil}/> </td>
         </tr>
       </React.Fragment>
     ))}
