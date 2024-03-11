@@ -49,18 +49,18 @@ const AccordianData = [
 
 const HomePage = () => {
   return (
-    <div>
+    <div className="container mx-auto px-4">
       {/* Hero Section */}
       <div className='w-full p-8 '>
-        <div className='md:flex hidden  justify-between'>
-          <img src={HeroImage1} alt='Hero Image 1' className='w-[600px] h-[400px] md:relative md:right-[150px] md:bottom-[70px] ' />
+        <div className='md:flex hidden justify-between'>
+          <img src={HeroImage1} alt='Hero Image 1' className='w-[600px] h-[400px] md:relative md:right-[260px] md:bottom-[80px] ' />
 
 
-         <img src={HeroImage2} alt='Hero Image 2' className='w-[600px] h-[400px] md:relative md:left-[30px] md:bottom-[30px] ' />
+         <img src={HeroImage2} alt='Hero Image 2' className='w-[600px] h-[400px] md:relative md:left-[200px] md:bottom-[100px] ' />
 
         </div>
-        <div className='flex md:p-0 py-20  flex-col items-center md:relative md:bottom-[80px] justify-center'>
-          <h1 className='text-center text-darkBlue md:text-6xl text-4xl font-medium mb-6'>Procuring <span style={{ color: "#7677FF" }}>chemicals</span> just got easier</h1>
+        <div className='flex  flex-col md:py-20 items-center md:relative md:bottom-[200px] justify-center'>
+          <h1 className='text-center text-darkBlue md:text-5xl text-3xl font-semibold mb-6'>Procuring <span style={{ color: "#7677FF" }}>chemicals</span> <br /> just got easier</h1>
           <p className='text-center text-gray-600'>Gain access to the world's largest chemical marketplace, view live inventory and start transacting today.</p>
           <div className='flex md:flex-row flex-col mt-8 gap-6'>
             <button className='bg-darkBlue text-white font-medium px-4 py-3 rounded-lg'>Start free trial</button>
@@ -82,14 +82,14 @@ const HomePage = () => {
 
       {/* Sourcing Options Section */}
 
-      <div className='w-full p-10 rounded-lg bg-gradient-to-l from-gray-400 to-bg2 via-bg1 mt-6'>
-        <div className='flex md:flex-row flex-col  p-8'>
+      <div className='w-full md:p-10 rounded-lg bg-gradient-to-l from-gray-400 to-bg2 via-bg1 mt-6'>
+        <div className='flex md:flex-row flex-col  p-10'>
           <div className='flex-1'>
             <h1 className='text-white md:text-5xl text-3xl'><span style={{ color: "#9192FF" }}>Increase</span> your sourcing options</h1>
           </div>
 
           <div className='flex-1 '>
-            <span className='text-xl text-white font-extralight'>Utilize our network functionality to create new sourcing
+            <span className='text-xl text-gray-300 font-extralight'>Utilize our network functionality to create new sourcing
               relationships and enhance existing ones, resulting in the best
               possible sourcing results. With features like real-time pricing,
               direct chat with sellers, and streamlined procurement
@@ -207,9 +207,9 @@ const HomePage = () => {
 
       <div className='md:p-10 w-full mt-8'>
   <div className='flex  md:flex-row flex-col  md:p-8'>
-    <div className="flex-1 md:px-8 p-3">
+    <div className="flex-1   md:px-8 p-3">
       <h1 className='md:text-4xl text-3xl font-medium text-center'>Find the right <span style={{ color: "#7677FF" }}> solution</span> for you</h1>
-      <div className='md:h-[700px] md:p-10 md:mt-0 mt-32 md:px-20 md:block flex gap-6 flex-col items-center justify-center   '>
+      <div className='md:h-[700px] home_hero_gradient  md:p-10 md:mt-0 mt-32 md:px-20 md:block flex gap-6 flex-col items-center justify-center   '>
         <img className='md:relative md:top-[60px]  ' src={Hero1} alt="" />
         <img className='md:relative   md:left-[150px] ' src={Hero3} alt="" />
         <img className='md:relative md:bottom-[130px]  md:right-[40px]  ' src={Hero1} alt="" />

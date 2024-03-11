@@ -39,4 +39,21 @@ body{
     background: linear-gradient(180deg, #202856 0%, #03131E 100%);
 }
 
+.home_hero_gradient {
+    position: relative;
+  }
+  
+  .home_hero_gradient::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(128, 220, 255, 0.4);
+    filter: blur(75px);
+    z-index: -1;
+  }
+
+
 

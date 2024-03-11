@@ -10,6 +10,12 @@ import ForgotPassword from "./pages/ForgotPassword";
 import CreateNewPassword from "./pages/CreateNewPassword";
 import OtpVerification from "./pages/OtpVerification";
 import AdminPage from "./pages/AdminPage";
+import DashBoard from "./components/DashBoard";
+import Employees from "./components/Employees";
+import MyDocuments from "./components/MyDocuments";
+import MyCataLog from "./components/MyCataLog";
+import SideBar from "./components/SIdeBar";
+
 
 function App() {
   return (
@@ -25,6 +31,9 @@ function App() {
             </>
           }
         />
+        
+        
+
         <Route
           path="/about"
           element={
@@ -65,7 +74,21 @@ function App() {
             </>
           }
         />
-        <Route path="/admin" element={<AdminPage />} />
+       
+         <Route
+          path="/admin/*"
+          element={
+            <AdminPage>
+              <Routes>
+                <Route path="dashboard" element={<DashBoard />} />
+                <Route path="employees" element={<Employees />} />
+                <Route path="documents" element={<MyDocuments />} />
+                <Route path="catalog" element={<MyCataLog />} />
+              </Routes>
+            </AdminPage>
+          }
+        />
+
         <Route
           path="/forgot-password"
           element={
@@ -96,8 +119,9 @@ function App() {
             </>
           }
         />
-        <Route path="*" element={<Navigate to="/" />} />
+    
       </Routes>
+
     </BrowserRouter>
   );
 }
